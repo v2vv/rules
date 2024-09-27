@@ -61,66 +61,6 @@ secret: ""
 external-ui: ui
 external-ui-url: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 # 下载面板地址可更换：https://mirror.ghproxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip
-# 机场订阅，名称不能重复
-代理提供商：
-机场_01：
-类型：http
-间隔：1800
-健康检查：
-启用：真
-网址：https://www.gstatic.com/generate_204
-间隔：300
-代理：🟢直连
-网址：“订阅”
-机场_02：
-类型：http
-间隔：1800
-健康检查：
-启用：真
-网址：https://www.gstatic.com/generate_204
-间隔：300
-代理：🟢直连
-网址：“订阅”
-覆盖：
-跳过证书验证：true
-UDP: 正确
-下行：“50 Mbps”
-向上：“10 Mbps”
-
-#用于下载订阅时指定UA
-全局 ua：clash.meta
-
-# 全局配置
-邮费：7890
-袜子端口：7891
-重发端口：7892
-混合端口：7893
-t代理端口：7894
-IPv6：假
-允许局域网：true
-统一延迟：true
-TCP 竞争对手：true
-# interface-name: eth0（路由器下根据情况指定出站接口）
-验证：
-- 名称：密码
-
-地理数据模式： false
-# GEO 文件加载模式（standard：标准加载器/memconservative：专为内存基础（小内存）设备优化的加载器（默认值））
-地理数据加载器：标准
-地理自动更新：true
-地理更新间隔：48
-吉奥克斯网址：
-地理站点：“https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat”
-mmdb：“https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.metadb”
-geoip：“https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat”
-asn：“https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb”
-
-# 控制面板
-外部控制器：0.0.0.0:9090
-秘密： ””
-外部用户界面：用户界面
-外部-ui-url：“https://mirror.ghproxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip”
-# 下载面板地址可更换：https://mirror.ghproxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip
 
 # 匹配进程 always/strict/off
 find-process-mode: strict
