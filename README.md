@@ -1,4 +1,4 @@
-# 连接失败问题以及解决方式
+# 1 连接失败问题以及解决方式
 ## 1.1 github raw.githubusercontent.com 文档下载链接存在 dns 污染解决办法
 使用 https://ping.chinaz.com/ 获取 raw.githubusercontent.com 的 ip地址 例如 185.199.110.133
 修改 host文件
